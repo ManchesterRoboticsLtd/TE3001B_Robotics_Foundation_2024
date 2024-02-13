@@ -28,7 +28,7 @@
 * ZOOM Link Classes: https://itesm.zoom.us/j/4779422764
 
 ## Live Sessions (Recordings)
-TBD
+https://drive.google.com/drive/folders/1q1FLw9df18JEB5NbzqEM48_30Une512R?usp=drive_link
 
  
 ## General Requirements
@@ -39,6 +39,7 @@ General requirements. Please be aware that a set of requirements especific for e
 * Basic knowledge of Ubuntu (recommended).
 * Basic understanding of robotics (recommended).
 * Access to the following materials
+  * Arduino IDE
   * Webcam
   * ESP32 from ExpressIf
   * H-Bridge (L298 or similar)
@@ -62,7 +63,7 @@ General requirements. Please be aware that a set of requirements especific for e
   *	Activity 2: Launch Files
   * Q&A
   
-  **Mini challenge:** Generate a node that send a signal to another node to process it.
+  **Mini challenge:** Generate a node that send a signal to another node to process it. The mini challenge and further instructions for this session is located in the folder Challenge.
   
   **Requirements:** Computer with access to Zoom, Ubuntu 22.04 and ROS Melodic Installed (Full installation). In case Ubuntu 22.04 cannot be installed, MCR2 offers a Virtual Machine with ROS preinstalled (installation instructions in Week 1 Folder).
   
@@ -74,12 +75,12 @@ General requirements. Please be aware that a set of requirements especific for e
   * ROS Custom Messages
   * Q&A
   
-  **Mini challenge:**: P/PI Controller from scratch to a 1st order simulated system.
+  **Mini challenge:**: Create a Simple P or PI controller for a simulated first order process.
   
   **Requirements:** Requirements of Session 1.
 
-  ### Week 3: ROS-Hardware Communication
-  This week will introduce hardware communication between ROS and the Hackerboard using ROSSerial.
+  ### Week 3: ROS-Hardware Communication and Data acquisition
+  This week is intended for the students to learn how to connect ROS with external hardware using micro-ROS tools that will be required in the following sessions.
   * Micro ROS
   * Data acquisition
   * ESP32
@@ -87,12 +88,12 @@ General requirements. Please be aware that a set of requirements especific for e
   * Q&A Session.
   
   **Requirements:** Requirements of Session 1, Installation of the Arduino IDE and the micro ROS package in the VM or Ubuntu. Access to the requested electric and electronic hardware.
+  **Mini challenge:** GPIO and analog input, PWM.
   
-  ### Week 4: ROS Data Acquisition
-  This week will introduce how to acquire data between ROS and the Hackerboard using ROSserial.
+  ### Week 4: ROS Data Acquisition + Control
+  This session is intended for the students to learn how to control external hardware using micro-ROS tools that will be required in the final challenge.
   
-  **Mini challenge:** Acquire data from the encoders using Arduino.
-  **Final Challenge:** PID Controller using ROS and compare with simulation.
+  **Final Challenge:** Control in open loop the speed and direction of a motor using a MCU, controlled from a computer using rosserial..
   * Q&A Session.
   
   **Requirements:** Requirements of Session 1 and Session 3.
@@ -109,15 +110,37 @@ General requirements. Please be aware that a set of requirements especific for e
    * [Ubuntu Installation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
   
   #### ROS
-   * [ROS Installation]([http://wiki.ros.org/noetic/Installation/Ubuntu](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html))
-   * [ROS book]([https://www.cse.sc.edu/~jokane/agitr/](https://github.com/fmrico/book_ros2))
-   * [ROS Packages]([http://wiki.ros.org/ROS/Tutorials/CreatingPackag](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)e)
-   * [ROS Workspace]([http://wiki.ros.org/catkin/Tutorials/create_a_workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html))
+   * [ROS Installation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+   * [ROS book](https://github.com/fmrico/book_ros2)
+   * [ROS Packages](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)
+   * [ROS Workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)
+   * [ROS Nodes](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html)
+   * [Topics](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html)
    * [Publisher and Subscribers](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
-   * [Roslaunch](https://docs.ros.org/en/humble/How-To-Guides/Launch-file-different-formats.html)
+   * [ROS Launch](https://docs.ros.org/en/humble/How-To-Guides/Launch-file-different-formats.html)
+   * [ROS Custom Interfaces](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Custom-ROS2-Interfaces.html)
+   * [Parameters](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Using-Parameters-In-A-Class-Python.html)
+
+  #### Embedded Systems
+   * [micro-ROS](https://micro.ros.org/)
+   * [micro-ROS-Arduino](https://github.com/micro-ROS/micro_ros_arduino)
+   * [DC Motor](https://en.wikipedia.org/wiki/DC_motor)
+   * [H-Bridge](https://www.youtube.com/watch?v=fVgnUWIWzZ8&ab_channel=NorthwesternRobotics)
+   * [Rotary Encoder](https://en.wikipedia.org/wiki/Rotary_encoder)
+   * [Rotary Encoder](https://www.encoder.com/article-what-is-an-encoder)
   
-  #### Virtual Machine (Google Drive): 
-   * [VM Ware]([https://drive.google.com/file/d/1Kqt8E69nB5pxYzyVztyoxF0UY9yCHLns/view](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1750&productId=1377&rPId=111473)https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1750&productId=1377&rPId=111473)
-   * [ROS Preinstalled VM](https://drive.google.com/file/d/1LCn433uN5pf8dcauWDagKEKjORsE3fZR/view)
+  #### Virtual Machine: 
+   * [VM Ware](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1750&productId=1377&rPId=111473)
+   * [ROS Preinstalled VM](https://manchesterrobotics-my.sharepoint.com/:u:/g/personal/mario_mtz_manchester-robotics_com/EWcRInLzqDZNpxqWlH3X0sQBGXgbTSj9Qp1VX7O_sGy4zQ?e=sIq2xd)
+
+  #### Resources
+   * [Introduction to Autonomous Mobile Robots](https://ieeexplore.ieee.org/book/6267528)
+   * [PID Control](https://ieeexplore.ieee.org/document/1453566)
+   * [Closed Loop Control](https://www.electronics-tutorials.ws/systems/closed-loop-system.html)
+   * [Nonlineraities and robustness](https://ieeexplore.ieee.org/document/8603065)
+   * [Open loop control Tutorial](https://www.electronics-tutorials.ws/systems/open-loop-system.html)
+   * [Open Loop Control Tutorial](https://www.electronicshub.org/open-loop-system/)
+   * [Open Loop Control Book](https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Signal_Processing_and_Modeling/Introduction_to_Linear_Time-Invariant_Dynamic_Systems_for_Students_of_Engineering_(Hallauer)/14%3A_Introduction_to_Feedback_Control/14.02%3A_Definitions_and_Examples_of_Open-Loop_Control_Systems)
+     
    ---
   
