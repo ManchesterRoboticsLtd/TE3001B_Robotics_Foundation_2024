@@ -104,3 +104,20 @@ General requirements. Please be aware that a set of requirements especific for e
   
   **Requirements:** Requirements of Session 1 and Session 3.
 
+  ### Useful Links: 
+  #### Ubuntu
+   * [Ubuntu Installation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
+  
+  #### ROS
+   * [ROS Installation]([http://wiki.ros.org/noetic/Installation/Ubuntu](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html))
+   * [ROS book]([https://www.cse.sc.edu/~jokane/agitr/](https://github.com/fmrico/book_ros2))
+   * [ROS Packages]([http://wiki.ros.org/ROS/Tutorials/CreatingPackag](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-Your-First-ROS2-Package.html)e)
+   * [ROS Workspace]([http://wiki.ros.org/catkin/Tutorials/create_a_workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html))
+   * [Publisher and Subscribers](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html)
+   * [Roslaunch](https://docs.ros.org/en/humble/How-To-Guides/Launch-file-different-formats.html)
+  
+  #### Virtual Machine (Google Drive): 
+   * [VM Ware]([https://drive.google.com/file/d/1Kqt8E69nB5pxYzyVztyoxF0UY9yCHLns/view](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1750&productId=1377&rPId=111473)https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1750&productId=1377&rPId=111473)
+   * [ROS Preinstalled VM](https://drive.google.com/file/d/1LCn433uN5pf8dcauWDagKEKjORsE3fZR/view)
+   ---
+  
