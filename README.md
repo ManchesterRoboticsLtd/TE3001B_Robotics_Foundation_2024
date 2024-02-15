@@ -34,7 +34,7 @@ https://drive.google.com/drive/folders/1q1FLw9df18JEB5NbzqEM48_30Une512R?usp=dri
 ## General Requirements
 General requirements. Please be aware that a set of requirements especific for each session will be shown in each session subsection (Some items may be repeated).
 * Computer with access to Zoom (online classes).
-* Computer with Ubuntu 22.04 and ROS Humble or MCR2 virtual machine.
+* Computer with Ubuntu 22.04 and ROS Humble or [MCR2 virtual machine](https://manchesterrobotics-my.sharepoint.com/:u:/g/personal/mario_mtz_manchester-robotics_com/EWcRInLzqDZNpxqWlH3X0sQBGXgbTSj9Qp1VX7O_sGy4zQ?e=AMOocL).
 * Knowledge of Windows. 
 * Basic knowledge of Ubuntu (recommended).
 * Basic understanding of robotics (recommended).
