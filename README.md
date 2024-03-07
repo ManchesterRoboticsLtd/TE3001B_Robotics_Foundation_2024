@@ -128,6 +128,8 @@ General requirements. Please be aware that a set of requirements especific for e
    * [H-Bridge](https://www.youtube.com/watch?v=fVgnUWIWzZ8&ab_channel=NorthwesternRobotics)
    * [Rotary Encoder](https://en.wikipedia.org/wiki/Rotary_encoder)
    * [Rotary Encoder](https://www.encoder.com/article-what-is-an-encoder)
+   * [ESP32 Tutorials](https://randomnerdtutorials.com/projects-esp32/)
+   * [Interrupts on ESP32](https://lastminuteengineers.com/handling-esp32-gpio-interrupts-tutorial/)
   
   #### Virtual Machine: 
    * [VM Ware](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1750&productId=1377&rPId=111473)
